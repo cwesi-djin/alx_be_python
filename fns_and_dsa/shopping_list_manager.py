@@ -1,10 +1,13 @@
 shopping_list = []
 i = 0
 
-def add_item(item):
+def add_item():
+    item = input("Enter the item to add: ")
     shopping_list.append(item)
+    print(f"'{item}' added to the list.")
 
 def remove_item(item):
+    item = input("Enter the item to remove: ")
     if item in shopping_list:
         shopping_list.remove(item)
     else:

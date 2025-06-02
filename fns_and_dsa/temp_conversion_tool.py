@@ -21,4 +21,4 @@ while True:
         print(f"{temperature}°F is {result}°F")
         break
     else:
-        print("Invalid temperature.")
+        print("Invalid temperature. Please enter a numeric value.")
